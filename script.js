@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (window.scrollY > 50) {
             navbar.classList.add("bg-pink/15", "backdrop-blur-lg");
         } else {
-            navbar.classList.remove("bg-white/15", "backdrop-blur-lg");
+            navbar.classList.remove("bg-white", "backdrop-blur-lg");
         }
     }
 
@@ -201,4 +201,5 @@ CareersContainer.innerHTML = plans.map(plan => `
         </div>
     </div>
     
+
 `).join("");
